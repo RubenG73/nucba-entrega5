@@ -1,0 +1,253 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #F4ECE9;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.container-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-header img {
+    transition: transform .7s ease-in-out;
+}
+
+.container-header img:hover {
+    transform: rotate(360deg);
+}
+
+.list-nav {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    margin-right: 50px;
+    padding: 0px;
+}
+
+nav {
+    width: 40%;
+}
+
+.list-nav a {
+    margin-right: 50px;
+    color: #18252E;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.container-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 457px;
+    
+    background-color: #E3D3C4;
+    
+}
+
+
+.container-section img {
+    height: 100%;
+    width: 30%;
+    object-fit: scale-down;
+    
+    
+}
+
+.container-parrafo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Staatliches';
+    text-transform: uppercase;
+    width: 50%;
+    text-align: center;
+    margin-left: 100px;
+    
+}
+
+.container-parrafo h1 {
+    font-size: 70px;
+}
+
+.container-parrafo h2 {
+    font-size: 40px;
+}
+
+.container-parrafo h3 {
+    font-size: 20px;
+}
+
+.container-parrafo button {
+    width: 30%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-family: 'Staatliches';
+    letter-spacing: 1.4px;
+}
+
+.container-parrafo button:hover {
+    width: 40%;
+    height: 35px;
+    font-size: 20px;
+
+}
+
+.letra-redondos {
+    width: 100%;
+    text-align: center;
+    font-family: 'Staatliches';
+    font-size: 80px;
+}
+
+.container-icons {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-icono-parrafo {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 30%;
+    object-fit:fill;
+    text-align: center;
+}
+
+.contenedor-icono-parrafo p {
+    color: black;
+    font-size: 1em;
+    font-family: 'Staatliches';
+}
+
+.contenedor-section {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogan {
+    width: 50%;
+    color: black;
+    font-size: 1.5em;
+    font-family: 'Staatliches';
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.section-imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-imgs {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    padding: 0px 50px;
+    box-sizing: border-box;
+    
+}
+
+.container-imgs img {
+    
+    width: 20%;
+    height: 500px;
+    object-fit: cover;
+    margin: 10px;
+    box-sizing: border-box;
+    transform: scale(1);
+    transition: .3s ease-in-out;
+    
+}
+
+.container-imgs img:hover {
+
+	transform: scale(1.1);
+}
+
+.section-bigcontact {
+    background-color: #E3D3C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.section-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slogan,
+.direccion {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.mapa {
+    border-radius: 10%;
+}
+
+footer {
+    
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    background-color: #F4ECE9;
+    padding: 0px;
+    
+}
+
+footer img {
+    padding: 0px;
+    height: auto;
+    width: 5%;
+    transition: transform .7s ease-in-out;
+    
+}
+
+footer img:hover {
+    transform: rotate(360deg);
+}
